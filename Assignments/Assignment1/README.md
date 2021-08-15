@@ -12,3 +12,7 @@ To manually compile the files:
 - Step 2: An executable file should be present with the name of the .java file that contained the main method.
         : In this case, as SunwayUniversity.java contains the main method, the executable will be SunwayUniversity.
         : Use the "java" command followed by the executable file name to execute.
+
+To remove all the *.class files:
+- Step 1: Call the Makefile using the "make" command in terminal and follow it up with the "clean" keyword.
+          Example: make clean
